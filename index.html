@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="hu">
+	<head>
+		<title>Minesweeper</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="./css/main.css">
+	</head>
+	<body>
+		<audio src="./resources/8bit_trip.mp3" loop="true" autoplay></audio>
+		<header>
+		</header>
+		<main>
+			<table id="minefield"></table>
+			<div id="beallitasok">
+				<div id="nehezseg">
+					<form id="choose">
+						<input type="radio" name="diff" id="easy" value="10"> 
+						<label for="easy">Könnyű</label><br>
+						<input type="radio" name="diff" id="med" value="20" checked>
+						<label for="med">Közepes</label><br>
+						<input type="radio" name="diff" id="hard" value="40">
+						<label for="hard">Nehéz</label><br>
+					</form>
+				</div>
+				<button onclick="generateMinefield();">Új játék</button>
+			</div>
+			<div id="leaderboard">
+			</div>
+		</main>
+		<footer>
+			<p id="foot">Minesweeper</p>
+		</footer>
+		<script type="text/javascript" src="./javascript/app.js"></script>
+	</body>
+</html>
