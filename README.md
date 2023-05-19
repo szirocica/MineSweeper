@@ -10,6 +10,7 @@ The application allows to:
  - In case of win or lose a feedback message
  - Adjust difficulty level to the users preference
  - Start a new game
+ - A background music is played
 
 How to use:
 - Open index.html in your favorite browser
